@@ -36,6 +36,18 @@
                     </execution>
                 </executions>
                 <configuration>
+			<groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>1.4</version>
+                <executions>
+                    <execution>
+                        <id>xjc</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
                 <schemaDirectory>${basedir}/src/main/resources/</schemaDirectory>
                     <!-- <schemaFiles>${basedir}/src/main/resources/ws-project.xsd</schemaFiles> -->
                     <packageName>com.naga.webservice.domain</packageName> <!-- The name of your generated source package -->
