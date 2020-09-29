@@ -40,3 +40,5 @@
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
 </projectDescription>
+
+# Added some lnes in the pom.xml
